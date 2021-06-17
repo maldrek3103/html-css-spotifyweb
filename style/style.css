@@ -1,0 +1,14 @@
+nav{
+    background-color: black;
+    color: white;
+}
+
+main{
+    background-color: darkblue;
+    color: white;
+}
+
+footer{
+    background-color: grey;
+    height: 90px;
+}
