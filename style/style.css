@@ -1,11 +1,37 @@
 
 
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
 .top-section{
     height: calc(100vh - 90px);
 }
 .bottom-section{
     height: 90px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    overflow: auto;
+    height: calc(100vh - 180px);
+}
+
 
 
 nav{
@@ -20,4 +46,13 @@ main{
 
 footer{
     background-color: grey;
+}
+
+
+
+
+
+.filters{
+
+    justify-content: center;
 }
