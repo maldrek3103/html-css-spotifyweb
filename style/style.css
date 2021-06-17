@@ -1,3 +1,13 @@
+
+
+.top-section{
+    height: calc(100vh - 90px);
+}
+.bottom-section{
+    height: 90px;
+}
+
+
 nav{
     background-color: black;
     color: white;
@@ -10,5 +20,4 @@ main{
 
 footer{
     background-color: grey;
-    height: 90px;
 }
