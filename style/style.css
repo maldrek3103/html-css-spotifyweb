@@ -1,57 +1,25 @@
-
-
+/* RESET */
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+/* GENERALS */
 
 a{
     text-decoration: none;
     color: #fff;
 }
-
-
-
 .top-section{
     height: calc(100vh - 90px);
 }
 .bottom-section{
     height: 90px;
 }
-
-
-
-
-
-
-main .upgrade{
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 90px;
-}
-main .filters{
-    padding-top: 90px;
-}
-main .recents{
-    padding: 5px;
-}
-.recents > h2{
-    padding: 5px;
-}
-img{
-    max-width: 100%;
-}
-
-.album{
-    max-width: calc(100% / 2);
-    padding: 5px;
-}
-
-
 main{
     position: relative;
     overflow: auto;
     height: calc(100vh - 90px);
 }
-
-
-
 nav{
     background-color: black;
     color: white;
@@ -65,12 +33,50 @@ main{
 footer{
     background-color: grey;
 }
-
-
-
-
-
+/* NAVBAR */
+/* MAIN */
+main .upgrade{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90px;
+}
+main .filters{
+    padding-top: 90px;
+}
+main .recents{
+    padding: 5px;
+}
+/* UPGRADE SECTION */
+/* FILTERS */
 .filters{
 
     justify-content: center;
 }
+/* RECENTS */
+.recents > h2{
+    padding: 5px;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.album img{
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.album{
+    max-width: calc(100% / 2);
+    padding: 5px;
+    text-align: center;
+}
+.album h3{
+    font-size: 1.3rem;
+}
+.album p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #75777c;
+}
+
+/* CREATED FOR */
+/* POPULARS */
+/* FOOTER */
