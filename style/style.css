@@ -2,6 +2,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    
 }
 /* GENERALS */
 
@@ -46,31 +47,15 @@ main .upgrade{
 main .filters{
     padding-top: 90px;
 }
-main .recents{
+main .recents,
+main .created-for,
+main .populars{
     padding: 5px;
 }
-/* UPGRADE SECTION */
-.upgrade a{
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translate(-35%, -50%);
-    padding: 10px 30px;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    color: #fff;
-}
-
-/* FILTERS */
-.filters{
-
-    justify-content: center;
-}
-/* RECENTS */
-.recents > h2{
-    padding: 5px;
-    font-size: 1.6rem;
-    font-weight: 800;
+main p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #75777c;
 }
 .album img{
     max-width: 100%;
@@ -85,12 +70,62 @@ main .recents{
 .album h3{
     font-size: 1.3rem;
 }
+.album h3,
 .album p{
-    font-size: 1rem;
-    font-weight: 600;
-    color: #75777c;
+    padding: 10px 0;
+}
+/* UPGRADE SECTION */
+.upgrade a{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-40%, -50%);
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
 }
 
+/* FILTERS */
+.filters{
+    justify-content: center;
+}
+/* RECENTS */
+.recents{
+    margin-top: 20px;
+}
+.recents > h2{
+    padding: 5px;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+
 /* CREATED FOR */
+.created-for{
+    margin-top: 20px;
+}
+.created-for > h2{
+    padding: 5px;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.created-for > p{
+    padding: 5px;
+}
 /* POPULARS */
+.populars{
+    margin-top: 20px;
+}
+.populars img{
+    border-radius: 50%;
+}
+.populars > h2{
+    padding: 5px;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.populars > p{
+    padding: 5px;
+}
 /* FOOTER */
