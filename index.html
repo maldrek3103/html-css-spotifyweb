@@ -9,6 +9,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'
+        integrity='sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=='
+        crossorigin='anonymous' />
     <link rel="stylesheet" href="./style/layout.css">
     <link rel="stylesheet" href="./style/style.css">
     <title>Spotify</title>
@@ -18,9 +21,17 @@
     <div class="container-fluid">
         <div class="top-section row">
             <!-- NAVBAR -->
-            <nav class="row col-1">
-                <div>top icons</div>
-                <div>bottom icons</div>
+            <nav class="column just-between col-1">
+                <div class="top-icons row">
+                    <a href="#"><i class="fab fa-spotify"></i></a>
+                    <a href="#"><i class="fas fa-home"></i></a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-bars fa-rotate-90"></i></a>
+                </div>
+                <div class="bottom-icons row">
+                    <a href="#"><i class="far fa-arrow-alt-circle-down"></i></a>
+                    <a href="#"><i class="far fa-user"></i></a>
+                </div>
             </nav>
             <!-- MAIN -->
             <main class="row col-11">

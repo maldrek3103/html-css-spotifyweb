@@ -38,6 +38,10 @@ footer{
     background-color: grey;
 }
 /* NAVBAR */
+nav{
+    height: calc(100vh - 90px);
+}
+
 /* MAIN */
 main .upgrade{
     position: fixed;
