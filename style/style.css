@@ -38,10 +38,25 @@ footer{
     background-color: grey;
 }
 /* NAVBAR */
-nav{
-    height: calc(100vh - 90px);
-}
 
+nav a{
+    padding: 0;
+    padding-bottom: 15px;
+}
+nav a i{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.top-icons,
+.bottom-icons{
+    justify-content: center;
+    align-items: center;
+}
+.bottom-icons .fa-user{
+    overflow: hidden;
+    background-color: #808080;
+    border-radius: 50%;
+}
 /* MAIN */
 main .upgrade{
     position: fixed;
