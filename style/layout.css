@@ -65,6 +65,10 @@
 .just-evenly{
     justify-content: space-evenly;
 }
+.centered{
+    justify-content: center;
+    align-items: center;
+}
 
 /* COLUMN AUTO */
 .grow{
