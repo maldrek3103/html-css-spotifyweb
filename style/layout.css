@@ -169,7 +169,7 @@
 }
 
 /* SMALL SCREEN */
-@media screen and (max-width: 576px){
+@media screen and (min-width: 576px){
     /* COLUMN SIZES */
     .col-sm-12{
         width: calc(100% / 12 * 12);
@@ -251,7 +251,7 @@
 }
 
 /* MEDIUM SCREEN */
-@media screen and (max-width: 768px){
+@media screen and (min-width: 870px){
     /* COLUMN SIZES */
     .col-md-12{
         width: calc(100% / 12 * 12);
