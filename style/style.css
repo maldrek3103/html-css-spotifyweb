@@ -35,7 +35,8 @@ main{
 }
 
 footer{
-    background-color: grey;
+    background-color: #282828;
+    color: #fff;
 }
 /* NAVBAR */
 
@@ -148,3 +149,27 @@ main p{
     padding: 5px;
 }
 /* FOOTER */
+
+
+footer{
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    max-width: 50px;
+    width: 100%;
+
+}
+.progress-bar {
+    width: 100%;
+    background-color: #5a5a5a;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.progress-bar-fill {
+    display: block;
+    height: 5px;
+    background-color: #c1c1c1;
+    border-radius: 3px;
+}
