@@ -80,7 +80,7 @@ main .filters{
     padding-top: 90px;
 }
 main p{
-    font-size: 0.625rem;
+    font-size: 0.8rem;
     font-weight: 800;
     color: #75777c;
 }
@@ -115,7 +115,7 @@ main p{
 
 /* FILTERS */
 main a{
-    font-size: 0.625rem;
+    font-size: 0.8rem;
     font-weight: 800;
 }
 main .filters a{
@@ -164,10 +164,10 @@ footer img{
     margin: 10px;
 }
 .listening h5{
-    font-size: 0.625rem;
+    font-size: 0.8rem;
 }
 .listening h6{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     color: #75777c;
 }
 .listening .like,
@@ -176,7 +176,7 @@ footer img{
     color: #75777c;
 }
 .listening i{
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 .player-controls{
     margin-bottom: 10px;
@@ -193,7 +193,7 @@ footer img{
 }
 .player p{
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-weight: 600;
 }
 .progress-bar {
@@ -227,6 +227,9 @@ footer .settings{
         width: 100%;
     }
     /* NAVBAR */
+    nav{
+        padding: 20px;
+    }
     nav h2{
         color: #fff;
     }
@@ -237,7 +240,6 @@ footer .settings{
     .top-icons,
     .bottom-icons{
         align-items: flex-start;
-        padding: 10px;
     }
     .top-icons h2,
     .bottom-icons h2,
@@ -275,14 +277,4 @@ footer .settings{
         color: #000;
     }
 }
-
-
-
-
-
-
-
-
-
-
 

@@ -251,7 +251,7 @@
 }
 
 /* MEDIUM SCREEN */
-@media screen and (min-width: 870px){
+@media screen and (min-width: 880px){
     /* COLUMN SIZES */
     .col-md-12{
         width: calc(100% / 12 * 12);
