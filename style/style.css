@@ -11,9 +11,9 @@
 a{
     text-decoration: none;
     color: #75777c;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: 600;
-    padding: 15px;
+    padding: 6px 12px;
 }
 .top-section{
     height: calc(100vh - 90px);
@@ -22,50 +22,53 @@ a{
     height: 90px;
 }
 main{
-    /* position: relative; */
     overflow: auto;
     height: calc(100vh - 90px);
+    background-color: #141922;
+    color: #fff;
+}
+main .container-fluid{
+    padding: 20px;
+    padding-right: 45px;
 }
 nav{
     background-color: #000;
     color: #fff;
-    padding: 10px;
+    padding: 10px 0;
 }
-
-main{
-    background-color: #141922;
-    color: #fff;
-}
-
 footer{
     background-color: #282828;
     color: #fff;
+    z-index: 1;
 }
-/* NAVBAR */
 
+/* NAVBAR */
 nav a{
     padding: 0;
     padding-top: 10px;
 }
 nav a i{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #d2d2d2;
 }
 nav .fa-spotify{
-    font-size: 2rem;
+    font-size: 1.875rem;
     color: #fff;
+}
+.main-menu a:first-child{
+    padding-top: 0;
 }
 .bottom-icons .fa-user{
     width: 30px;
     height: 30px;
-    font-size: 1.8rem;
+    font-size: 1.56rem;
     text-align: center;
     overflow: hidden;
     background-color: #808080;
     border-radius: 50%;
 }
 .bottom-icons .fa-arrow-alt-circle-down{
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 /* MAIN */
 main .upgrade{
@@ -76,32 +79,26 @@ main .upgrade{
 main .filters{
     padding-top: 90px;
 }
-main .recents,
-main .created-for,
-main .populars{
-    padding: 5px;
-}
 main p{
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 0.625rem;
+    font-weight: 800;
     color: #75777c;
 }
 .album img{
     max-width: 100%;
-    margin: 10px 0;
+    padding: 10px 5px;
 }
 
 .album{
     max-width: calc(100% / 2);
-    padding: 5px;
     text-align: center;
 }
 .album h3{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 .album h3,
 .album p{
-    padding: 10px 0;
+    padding: 5px 0;
 }
 /* UPGRADE SECTION */
 
@@ -110,20 +107,24 @@ main p{
     top: 45px;
     right: 0;
     transform: translate(-20%, -50%);
-    padding: 10px 30px;
+    padding: 16px 40px;
     border: 1px solid #fff;
-    border-radius: 20px;
+    border-radius: 28px;
     color: #fff;
 }
 
 /* FILTERS */
-
-/* RECENTS */
-.recents{
-    margin-top: 20px;
+main a{
+    font-size: 0.625rem;
+    font-weight: 800;
 }
+main .filters a{
+    margin-bottom: 35px;
+}
+/* RECENTS */
+
 .recents > h2{
-    padding: 5px;
+    padding: 15px 5px 25px 5px;
     font-size: 1.6rem;
     font-weight: 800;
 }
@@ -158,21 +159,24 @@ main p{
 }
 /* FOOTER */
 footer img{
-    
+    max-width: 70px;
     width: 60%;
-    margin-left: 10px;
+    margin: 10px;
 }
 .listening h5{
-    font-size: 0.9rem;
+    font-size: 0.625rem;
 }
 .listening h6{
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     color: #75777c;
 }
 .listening .like,
 .listening .folder{
     margin-left: 20px;
     color: #75777c;
+}
+.listening i{
+    font-size: 0.75rem;
 }
 .player-controls{
     margin-bottom: 10px;
@@ -181,12 +185,15 @@ footer img{
 .player-controls div{
     text-align: center;
 }
+.player-controls i{
+    font-size: 0.875rem;
+}
 .player-controls .fa-play-circle{
-    font-size: 1.8rem;
+    font-size: 1.875rem;
 }
 .player p{
     text-align: center;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     font-weight: 600;
 }
 .progress-bar {
@@ -197,7 +204,7 @@ footer img{
 }
 .progress-bar-fill {
     display: block;
-    height: 6px;
+    height: 4px;
     background-color: #c1c1c1;
     border-radius: 3px;
 }
@@ -205,6 +212,9 @@ footer .settings{
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+}
+.settings i{
+    font-size: 0.875rem;
 }
 /* RESPONSIVE SMALL */
 @media screen and (min-width: 576px){
@@ -221,7 +231,7 @@ footer .settings{
         color: #fff;
     }
     .top-icons h1{
-        font-size: 1.6rem;
+        font-size: 1.25rem;
         color: #fff;
     }
     .top-icons,
@@ -230,16 +240,25 @@ footer .settings{
         padding: 10px;
     }
     .top-icons h2,
-    .bottom-icons h2{
-        display: inline-block;
-    }
+    .bottom-icons h2,
     .top-icons h3,
     .bottom-icons h3{
         display: inline-block;
     }
+    .main-menu{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .main-menu i,
+    .create-playlist i,
+    .bottom-icons i{
+        margin-right: 10px;
+    }
+    .main-menu a:first-child{
+        margin-bottom: 20px;
+    }
     nav .fa-spotify{
         font-size: 2.5rem;
-        margin-bottom: 20px;
     }
     .playlists{
         margin-top: 25px;
@@ -256,3 +275,14 @@ footer .settings{
         color: #000;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
