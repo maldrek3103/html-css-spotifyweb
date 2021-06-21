@@ -42,9 +42,11 @@ footer{
     z-index: 1;
 }
 /* EFFECTS */
-nav h3:hover,
-nav a:hover{
+a:hover{
     color: #fff;
+}
+main img:hover{
+    filter: opacity(0.5);
 }
 /* NAVBAR */
 nav a{
@@ -129,7 +131,7 @@ main .filters a{
 }
 /* RECENTS */
 
-.recents > h2{
+.recents h2{
     padding: 15px 5px 25px 5px;
     font-size: 1.6rem;
     font-weight: 800;
@@ -140,12 +142,12 @@ main .filters a{
 .created-for{
     margin-top: 20px;
 }
-.created-for > h2{
+.created-for h2{
     padding: 5px;
     font-size: 1.6rem;
     font-weight: 800;
 }
-.created-for > p{
+.created-for p{
     padding: 5px;
 }
 /* POPULARS */
@@ -155,12 +157,12 @@ main .filters a{
 .populars img{
     border-radius: 50%;
 }
-.populars > h2{
+.populars h2{
     padding: 5px;
     font-size: 1.6rem;
     font-weight: 800;
 }
-.populars > p{
+.populars p{
     padding: 5px;
 }
 /* FOOTER */
@@ -284,3 +286,9 @@ footer .settings{
     }
 }
 
+@media screen and (min-width: 880px){
+    .recents h2{
+        font-size: 1.8rem;
+    }
+
+}
