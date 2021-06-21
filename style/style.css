@@ -178,6 +178,11 @@ footer img{
     font-size: 0.6rem;
     color: #75777c;
 }
+.listening h5:hover,
+.listening h6:hover{
+    text-decoration: underline;
+    color: #fff;
+}
 .listening .like,
 .listening .folder{
     margin-left: 20px;
@@ -185,6 +190,9 @@ footer img{
 }
 .listening i{
     font-size: 1rem;
+}
+.listening i:hover{
+    color: #fff;
 }
 .player-controls{
     margin-bottom: 10px;
@@ -290,5 +298,30 @@ footer .settings{
     .recents h2{
         font-size: 1.8rem;
     }
+    .listening h5{
+        font-size: 1.2rem;
+    }
+    .listening h6{
+        font-size: 1rem;
+    }
 
+    .listening i{
+        font-size: 1.4rem;
+    }
+    .player-controls i{
+        font-size: 1.2rem;
+    }
+    .player-controls .fa-play-circle{
+        font-size: 2.2rem;
+    }
+    .player p{
+        font-size: 0.9rem;
+    }
+
+    .progress-bar-fill {
+        height: 4px;
+    }
+    .settings i{
+        font-size: 1.2rem;
+    }
 }
