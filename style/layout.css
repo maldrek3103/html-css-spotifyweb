@@ -333,7 +333,7 @@
 }
 
 /* LARGE SCREEN */
-@media screen and (max-width: 992px){
+@media screen and (min-width: 992px){
     /* COLUMN SIZES */
     .col-lg-12{
         width: calc(100% / 12 * 12);
