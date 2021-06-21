@@ -122,12 +122,27 @@ main p{
 }
 
 /* FILTERS */
-main a{
+
+.filters a{
+    margin-bottom: 35px;
     font-size: 0.8rem;
     font-weight: 800;
 }
-main .filters a{
-    margin-bottom: 35px;
+.filters ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.filters li{
+    list-style: none;
+}
+.filters li:first-child:after{
+    display: block;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: green;
+    margin: 10px auto;
 }
 /* RECENTS */
 
