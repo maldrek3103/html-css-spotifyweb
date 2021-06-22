@@ -49,18 +49,20 @@ main img:hover{
     filter: opacity(0.5);
 }
 /* NAVBAR */
+nav img{
+    width: 30px;
+    margin-right: 5px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    padding: 5px 0;
+}
 nav a{
-    padding: 0;
-    padding-top: 10px;
+    font-size: 1.2rem;
 }
-nav a i{
-    font-size: 1.25rem;
-    color: #d2d2d2;
-}
-nav .fa-spotify{
-    font-size: 1.875rem;
-    color: #fff;
-}
+
 .main-menu a:first-child{
     padding-top: 0;
 }
